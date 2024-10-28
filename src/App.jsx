@@ -6,7 +6,7 @@ const FreezePIX = () => {
   const [selectedPhotos, setSelectedPhotos] = useState([]);
   const [activeStep, setActiveStep] = useState(0);
   
-  const TAX_RATE = 0.13; // 20% tax rate
+  const TAX_RATE = 0.13; // 13% tax rate
 
   const printSizes = [
     { id: '4x6', name: '10 x 15 inches', price: 0.99 },
